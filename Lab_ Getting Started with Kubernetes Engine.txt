@@ -40,4 +40,5 @@ kubectl scale deployment nginx --replicas 3
 Confirm that Kubernetes has updated the number of pods using the command below... 		
 kubectl get pods 	
 
-Confirm that your external IP address has not changed by running this command... 		kubectl get services
+Confirm that your external IP address has not changed by running this command...
+kubectl get services
